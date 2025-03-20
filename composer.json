@@ -10,12 +10,16 @@
     "license": "MIT",
     "require": {
         "php": "^8.2",
+        "imagine/imagine": "^1.5",
+        "intervention/image": "^3.11",
         "laravel/framework": "^11.31",
         "laravel/tinker": "^2.9",
+        "league/flysystem-aws-s3-v3": "^3.0",
         "livewire/livewire": "^3.4",
         "livewire/volt": "^1.0"
     },
     "require-dev": {
+        "barryvdh/laravel-ide-helper": "^3.5",
         "fakerphp/faker": "^1.23",
         "laravel/breeze": "^2.3",
         "laravel/pail": "^1.1",
